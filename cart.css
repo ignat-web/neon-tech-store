@@ -1,0 +1,121 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+
+    .close-btn {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background: #000000;
+        color: white;
+        border: none;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        font-size: 20px;
+        cursor: pointer;
+        z-index: 1001;
+    }
+
+
+    body {
+        background-color: #0a0a0f;
+        color: #ffffff;
+        font-family: 'Inter', sans-serif;
+        padding: 20px;
+    }
+
+    .cart-container {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .cart-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #151520;
+        padding: 15px;
+        margin: 10px 0;
+        border-radius: 10px;
+        border: 1px solid #00d9ff;
+    }
+
+    .cart-item img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 5px;
+        margin-right: 20px;
+    }
+
+    .item-info {
+        flex-grow: 1;
+    }
+
+    .item-price {
+        color: #00d9ff;
+        margin-top: 5px;
+        font-weight: bold;
+    }
+
+    .quantity-controls {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .quantity-btn {
+        background: #00d9ff;
+        border: none;
+        color: #000;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .remove-btn {
+        background: #000000;
+        color: white;
+        border: none;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    .cart-total {
+        text-align: right;
+        margin-top: 30px;
+        font-size: 1.5em;
+        color: #00d9ff;
+    }
+
+    .checkout-btn {
+        background: #00d9ff;
+        color: #000;
+        border: none;
+        padding: 15px 30px;
+        border-radius: 10px;
+        font-size: 1.2em;
+        cursor: pointer;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .empty-cart {
+        text-align: center;
+        padding: 50px;
+        color: #666;
+    }
+
+    .item-content {
+        flex-grow: 1;
+    }
+
